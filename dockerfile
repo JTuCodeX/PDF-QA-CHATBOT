@@ -15,7 +15,7 @@ COPY requirements.txt .
 
 # Install Python deps
 RUN pip install --no-cache-dir -r requirements.txt
-
+ 
 # Copy app code
 COPY . .
 
