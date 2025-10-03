@@ -16,6 +16,3 @@ DEFAULT_K = int(os.getenv("DEFAULT_K", 2))
 
 # Local storage for temporary files or indexes
 TMP_DIR = os.getenv("TMP_DIR", "/tmp/pdf_qa")
-
-# export GEMINI_API_KEY="AIzaSyDiekJUeSHryzix7kFoFMTLxhiq9kmU884"
-# export EMBEDDING_MODEL="sentence-transformers/all-MiniLM-L6-v2"
